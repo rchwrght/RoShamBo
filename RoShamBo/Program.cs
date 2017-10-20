@@ -27,11 +27,13 @@ namespace RoShamBo
                     Console.WriteLine("Computer Chose: " + computer);
                     Console.WriteLine("Dang you beat me!");
                     wins++;
-                } else {
+                } else if ((input == "rock" && computer == "paper") || (input == "paper" && computer == "scissors") || (input == "scissors" && computer == "rock")){ //Lose Conditions
                     Console.WriteLine("Player Chose: " + input);
                     Console.WriteLine("Computer Chose: " + computer);
                     Console.WriteLine("HAHA You suck, you sucky human!");
                     loses++;
+                } else {
+                    Console.WriteLine("You have not entered a viable weapon");
                 }
                 Console.WriteLine("Your current record is:\n");
                 Console.WriteLine(wins + "-" + loses + "-" + draws);
