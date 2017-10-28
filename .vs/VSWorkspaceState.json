@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RoShamBo"
   ],
-  "SelectedNode": "\\RoShamBo.sln",
+  "SelectedNode": "\\RoShamBo\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
